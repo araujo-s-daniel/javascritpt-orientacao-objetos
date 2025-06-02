@@ -22,6 +22,7 @@ contaCorrenteAlice.cliente = cliente2;
 
 console.log(contaCorrenteAlice);
 
-contaCorrenteRicardo.transferir(200, contaCorrenteAlice);
+let valor = 200;
+contaCorrenteRicardo.transferir(valor, contaCorrenteAlice);
 
 console.log(contaCorrenteAlice);
