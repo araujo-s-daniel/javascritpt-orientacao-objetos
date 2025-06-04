@@ -10,3 +10,5 @@ const contaCorrenteAlice = new ContaCorrente(102, cliente2);
 
 let valor = 200;
 contaCorrenteRicardo.transferir(valor, contaCorrenteAlice);
+
+console.log(ContaCorrente.numeroDeContas);
